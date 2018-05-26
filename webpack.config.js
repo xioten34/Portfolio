@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const webpack = require('webpack')
 const path = require('path')
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
@@ -30,7 +32,7 @@ module.exports = {
       }
     ]
   },
-  plugins:[
+  plugins: [
     new ExtractTextWebpackPlugin('./css/[name].css')
   ],
   resolve: {
