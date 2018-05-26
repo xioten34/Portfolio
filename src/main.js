@@ -11,9 +11,6 @@ import Locale from './vue-i18n-locales.js'
 Vue.use(VueI18n)
 
 Vue.component('application', require('./components/Application.vue').default)
-// Vue.component('home', require('./components/sections/Home.vue').default)
-// Vue.component('about', require('./components/sections/About.vue').default)
-// Vue.component('work', require('./components/sections/Work.vue'))
 
 const lang = document.documentElement.lang
 

@@ -8,7 +8,8 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve('./public'),
-    filename: './js/bundle.js'
+    filename: './js/bundle.js',
+    publicPath: '/public/'
   },
   module: {
     rules: [
@@ -29,6 +30,11 @@ module.exports = {
           fallback: 'style-loader',
           use: ['css-loader', 'sass-loader', 'postcss-loader']
         })
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
+        exclude: /node_modules/,
+        loader: 'url-loader?limit=1024&name=images/[name].[ext]'
       }
     ]
   },

@@ -2,12 +2,27 @@
 
 export default {
   'fr': {
-    'bonjour': 'Bonjour'
+    'bonjour': 'Bonjour',
+    'menu': {
+      'accueil': 'Accueil',
+      'a propos': 'A propos',
+      'portfolio': 'Portfolio'
+    }
   },
   'en': {
-    'bonjour': 'Hello'
+    'bonjour': 'Hello',
+    'menu': {
+      'accueil': 'Home',
+      'a propos': 'About',
+      'portfolio': 'Portfolio'
+    }
   },
   'ja': {
-    'bonjour': 'こんにちは'
+    'bonjour': 'こんにちは',
+    'menu': {
+      'accueil': 'Home',
+      'a propos': 'A propos',
+      'portfolio': 'ポートフォリオ'
+    }
   }
 }
