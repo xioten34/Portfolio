@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <MainMenu />
+        <main-menu />
         <home />
         <about />
         <work />
@@ -28,6 +28,9 @@
     .main 
         height: 100vh
         background: #fff
+        .hero
+            height: 100vh
+            padding: 20px
     
 </style>
 

@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <h1>{{ $t('bonjour') }}</h1>
-    </div>
+    
     
 </template>
 
@@ -11,6 +9,6 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="sass" scoped>
 
 </style>
