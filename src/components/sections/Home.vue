@@ -2,7 +2,7 @@
     <section class="hero">
         <div class="columns">
             <div class="column is-7-desktop is-8-tablet is-10-mobile">
-                <img class="img-back" src="/images/svg/element/circle_test.svg" alt="circle gradient">
+                <img class="img-back" src="/images/svg/element/circle_background.svg" alt="circle gradient">
             </div>
         </div>
         <img class="img-face" src="/images/svg/element/portrait.svg" alt="portrait">
