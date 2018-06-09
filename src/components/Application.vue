@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <main-menu />
+        <layouts /> 
         <home />
         <about />
         <work />
@@ -11,12 +11,12 @@
     import home from './sections/Home.vue'
     import about from './sections/About.vue'
     import work from './sections/Work.vue'
-    // Layout
-    import MainMenu from './Layouts/Header.vue'
+    // Layouts
+    import layouts from './Common/Layouts.vue'
 
     export default {
         components: {
-            MainMenu,
+            layouts,
             home,
             about,
             work
@@ -30,7 +30,6 @@
         background: #fff
         .hero
             height: 100vh
-            padding: 20px
     
 </style>
 
