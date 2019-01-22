@@ -6,7 +6,9 @@ export default {
     'menu': {
       'accueil': 'Accueil',
       'a propos': 'A propos',
-      'portfolio': 'Portfolio'
+      'portfolio': 'Portfolio',
+      'travel': 'Voyage',
+      'contact': 'Contact'
     }
   },
   'en': {
@@ -14,15 +16,19 @@ export default {
     'menu': {
       'accueil': 'Home',
       'a propos': 'About',
-      'portfolio': 'Portfolio'
+      'portfolio': 'Portfolio',
+      'travel': 'Travel',
+      'contact': 'Contact'
     }
   },
   'ja': {
     'bonjour': 'こんにちは',
     'menu': {
-      'accueil': 'Home',
-      'a propos': 'A propos',
-      'portfolio': 'ポートフォリオ'
+      'accueil': 'ホーム',
+      'a propos': 'およそ',
+      'portfolio': 'ポートフォリオ',
+      'travel': '旅行',
+      'contact': 'コンタクト'
     }
   }
 }
