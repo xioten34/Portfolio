@@ -1,22 +1,21 @@
 <template>
     <div class="main">
-        <layouts /> 
-        <home />
-        <about />
-        <work />
+        <top-menu></top-menu> 
+        <home></home>
+        <about></about>
+        <work></work>
     </div>
 </template>
 
 <script>
-    import home from './sections/Home.vue'
-    import about from './sections/About.vue'
-    import work from './sections/Work.vue'
-    // Layouts
-    import layouts from './Common/Layouts.vue'
+    import topMenu from './Common/TopMenu'
+    import home from './sections/Home'
+    import about from './sections/About'
+    import work from './sections/Work'
 
     export default {
         components: {
-            layouts,
+            topMenu,
             home,
             about,
             work
@@ -25,12 +24,7 @@
 </script>
 
 <style lang="sass" scoped>
-    .main 
-        height: 100vh
-        background: #fff
-        .hero
-            height: 100vh
-    
+
 </style>
 
 
