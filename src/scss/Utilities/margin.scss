@@ -170,6 +170,36 @@ $base: $utility-base;
   margin-bottom: $base * 3.5 !important;
 }
 
+.has-margin-y-7 {
+  margin-top: $base * 4 !important;
+  margin-bottom: $base * 4 !important;
+}
+
+.has-margin-y-8 {
+  margin-top: $base * 4.5 !important;
+  margin-bottom: $base * 4.5 !important;
+}
+
+.has-margin-y-9 {
+  margin-top: $base * 5 !important;
+  margin-bottom: $base * 5 !important;
+}
+
+.has-margin-y-10 {
+  margin-top: $base * 5.5 !important;
+  margin-bottom: $base * 5.5 !important;
+}
+
+.has-margin-y-11 {
+  margin-top: $base * 6 !important;
+  margin-bottom: $base * 6 !important;
+}
+
+.has-margin-y-12 {
+  margin-top: $base * 6.5 !important;
+  margin-bottom: $base * 6.5 !important;
+}
+
 .has-margin-x-1 {
   margin-left: $base !important;
   margin-right: $base !important;
@@ -198,6 +228,36 @@ $base: $utility-base;
 .has-margin-x-6 {
   margin-left: $base * 3.5 !important;
   margin-right: $base * 3.5 !important;
+}
+
+.has-margin-x-7 {
+  margin-left: $base * 4 !important;
+  margin-right: $base * 4 !important;
+}
+
+.has-margin-x-8 {
+  margin-left: $base * 4.5 !important;
+  margin-right: $base * 4.5 !important;
+}
+
+.has-margin-x-9 {
+  margin-top: $base * 5 !important;
+  margin-bottom: $base * 5 !important;
+}
+
+.has-margin-x-10 {
+  margin-top: $base * 5.5 !important;
+  margin-bottom: $base * 5.5 !important;
+}
+
+.has-margin-x-11 {
+  margin-top: $base * 6 !important;
+  margin-bottom: $base * 6 !important;
+}
+
+.has-margin-x-12 {
+  margin-top: $base * 6.5 !important;
+  margin-bottom: $base * 6.5 !important;
 }
 
 @media screen and (max-width: $mobile) {
