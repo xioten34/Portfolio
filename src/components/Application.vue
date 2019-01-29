@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <top-menu></top-menu> 
+        <main-menu></main-menu> 
         <home></home>
         <about></about>
         <work></work>
@@ -8,23 +8,18 @@
 </template>
 
 <script>
-    import topMenu from './Common/TopMenu'
+    import mainMenu from './Common/MainMenu'
     import home from './sections/Home'
     import about from './sections/About'
     import work from './sections/Work'
 
     export default {
         components: {
-            topMenu,
+            mainMenu,
             home,
             about,
             work
         }
     }
 </script>
-
-<style lang="sass" scoped>
-
-</style>
-
 

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar is-background-transparent has-no-margin">
+    <nav class="navbar is-fixed-top is-background-transparent has-no-margin">
         <div class="container has-padding-x-1 has-padding-y-1">
             <div class="navbar-brand has-no-margin">
                 <a href="#" class="navbar-item has-no-padding has-padding-right-1">
@@ -20,9 +20,9 @@
                     <a href="" class="navbar-item">{{ $t('menu[\'contact\']') }}</a>
                 </div>
                 <div class="navbar-end lang">
-                    <a href="" class="navbar-item" @click="switchLang('fr')">Fr</a>
-                    <a href="" class="navbar-item" @click="switchLang('en')">En</a>
-                    <a href="" class="navbar-item" @click="switchLang('ja')">Ja</a>
+                    <a class="navbar-item" @click="switchLang('fr')">Fr</a>
+                    <a class="navbar-item" @click="switchLang('en')">En</a>
+                    <a class="navbar-item" @click="switchLang('ja')">Ja</a>
                 </div>
             </div>
         </div>
@@ -37,9 +37,9 @@
             }
         },
         methods: {
-            swithLang(language) {
+            switchLang(language) {
                 const html = document.documentElement
-                html.setAttribute('lang','language')
+                html.setAttribute('lang', language)
             }
         }
     }
