@@ -20,9 +20,9 @@
                 <section class="has-fullheight is-align-center has-text-corail">
                     <p class="is-icon-list">
                         <span>social media —</span>
-                        <fa-icon class="has-no-margin-top" :icon="['fab', 'instagram']" />
-                        <fa-icon :icon="['fab', 'linkedin']" />
-                        <fa-icon :icon="['fab', 'github']" />
+                        <a href="https://www.instagram.com/j.dams" target="_blank"><fa-icon class="has-no-margin-top" :icon="['fab', 'instagram']" /></a>
+                        <a href="https://www.linkedin.com/in/damien-jaillot" target="_blank"><fa-icon :icon="['fab', 'linkedin']" /></a>
+                        <a href="https://github.com/xioten34" target="_blank"><fa-icon :icon="['fab', 'github']" /></a>
                     </p>
                 </section>
             </div>
@@ -35,23 +35,3 @@
         
     }
 </script>
-
-<style lang="sass" scoped>
-
-    .container
-        .img
-            &-face
-                height: auto
-                max-width: 90%
-                top: 70px
-                left: 20%
-                transition: all 0.2s
-                z-index: 5
-                @media only screen and (max-width: 650px)
-                    max-width: 250px
-                @media only screen and (max-width: 430px)
-                    max-width: 200px
-                @media only (min-width: 650px) and (max-height: 690px)
-                    max-width: 90%
-
-</style>
