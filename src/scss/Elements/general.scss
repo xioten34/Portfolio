@@ -1,3 +1,15 @@
-.is-background-transparent {
-    background-color: transparent !important;
+.has-fullheight {
+    height: 100% !important;
+}
+.is-align-center {
+    display: flex !important;
+    align-items: center;
+    flex-grow: 1;
+}
+.is-main-title {
+    text-align: right !important;
+    flex-grow: 1;
+}
+.has-no-border {
+    border: none !important;
 }

@@ -1,10 +1,11 @@
 <template>
-    <nav class="navbar is-fixed-top is-background-transparent has-no-margin">
-        <div class="container has-padding-x-1 has-padding-y-1">
-            <div class="navbar-brand has-no-margin">
-                <a href="#" class="navbar-item has-no-padding has-padding-right-1">
-                    <img src="/images/svg/logo/logo_white.svg" id="mem-logo">
+    <nav class="navbar hass-background-transparent has-padding-y-1 has-no-margin">
+        <div class="container has-padding-x-1">
+            <div class="navbar-brand">
+                <a href="#" class="navbar-item has-no-padding is-logo">
+                    <img src="/images/svg/logo/logo.svg">
                 </a>
+                <div class="navbar-item has-text-weight-bold">Damien <span class="has-text-corail">.</span></div>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -13,16 +14,18 @@
             </div>
             <div class="navbar-menu">
                 <div class="navbar-start">
-                    <a href="" class="navbar-item">{{ $t('menu[\'accueil\']') }}</a>
-                    <a href="" class="navbar-item">{{ $t('menu[\'a propos\']') }}</a>
-                    <a href="" class="navbar-item">{{ $t('menu[\'portfolio\']') }}</a>
-                    <a href="" class="navbar-item">{{ $t('menu[\'travel\']') }}</a>
-                    <a href="" class="navbar-item">{{ $t('menu[\'contact\']') }}</a>
+                    <a href="#" class="navbar-item">{{ $t('menu[\'accueil\']') }}</a>
+                    <a href="#" class="navbar-item">{{ $t('menu[\'a propos\']') }}</a>
+                    <a href="#" class="navbar-item">{{ $t('menu[\'portfolio\']') }}</a>
+                    <a href="#" class="navbar-item">{{ $t('menu[\'travel\']') }}</a>
                 </div>
                 <div class="navbar-end lang">
                     <a class="navbar-item" @click="switchLang('fr')">Fr</a>
                     <a class="navbar-item" @click="switchLang('en')">En</a>
-                    <a class="navbar-item" @click="switchLang('ja')">Ja</a>
+                    <a class="navbar-item" @click="switchLang('ja')">日本語</a>
+                    <span class="navbar-item">
+                        <a href="#" class="button has-no-border has-background-corail">{{ $t('menu[\'contact\']') }}</a>
+                    </span>
                 </div>
             </div>
         </div>
