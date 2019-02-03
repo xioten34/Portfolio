@@ -32,6 +32,10 @@ $base: $utility-base;
   margin: $base * 3.5 !important;
 }
 
+.has-no-margin-top {
+  margin-top: 0 !important;
+}
+
 .has-margin-top-1 {
   margin-top: $base !important;
 }

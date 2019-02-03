@@ -16,7 +16,16 @@
                     </div>
                 </section>
             </div>
-            <div class="column is-1 is-offset-1"></div>
+            <div class="column is-1 is-offset-1 is-flex">
+                <section class="has-fullheight is-align-center has-text-corail">
+                    <p class="is-icon-list">
+                        <span>social media —</span>
+                        <fa-icon class="has-no-margin-top" :icon="['fab', 'instagram']" />
+                        <fa-icon :icon="['fab', 'linkedin']" />
+                        <fa-icon :icon="['fab', 'github']" />
+                    </p>
+                </section>
+            </div>
         </div>
     </div>
 </template>
