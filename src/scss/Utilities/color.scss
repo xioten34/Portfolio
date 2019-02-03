@@ -1,5 +1,8 @@
 .has-text-corail {
-    color: $corail;
+    color: $corail !important;
+    a {
+        color: $corail !important;
+    }
 }
 .has-background-corail {
     background-color: $corail !important;
