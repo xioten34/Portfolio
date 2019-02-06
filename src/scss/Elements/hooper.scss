@@ -1,4 +1,4 @@
-.hooper{position:relative;box-sizing:border-box;width:100%
+.hooper{position:relative;box-sizing:border-box;width:100%;padding: 0.75rem;
 }
 .hooper *{box-sizing:border-box
 }
@@ -6,7 +6,12 @@
 }
 .hooper-track{display:flex;box-sizing:border-box;width:100%;padding:0;margin:0
 }
-.hooper-slide{flex-shrink:0;height:200px
+.hooper-slide{position: relative; flex-shrink:0;height:200px;background-color: $corail;border: 5px solid #fff;border-radius: 10px;
+    h3 {
+        position: absolute;
+        left: 0.75rem;
+        bottom: 1.25rem;
+    }
 }
 .hooper.is-vertical .hooper-track{flex-direction:column;height:200px
 }
@@ -32,9 +37,9 @@
 }
 .hooper-pagination.is-vertical .hooper-indicator{width:6px
 }
-.hooper-next,.hooper-prev{background-color:transparent;border:none;padding:1em;position:absolute;top:50%;transform:translateY(-50%);cursor:pointer
+.hooper-next,.hooper-prev{background-color:transparent;border:none;padding:1em 2em;position:absolute;top:50%;transform:translateY(-50%);cursor:pointer;outline:none;
 }
-.hooper-next.is-disabled,.hooper-prev.is-disabled{opacity:.3;cursor:not-allowed
+.hooper-next.is-disabled,.hooper-prev.is-disabled{display: none !important;
 }
 .hooper-next{right:0
 }
@@ -47,4 +52,9 @@
 .hooper-navigation.is-rtl .hooper-prev{left:auto;right:0
 }
 .hooper-navigation.is-rtl .hooper-next{right:auto;left:0
+}
+@media only screen and (max-width: 48rem) {
+.hooper-navigation{display: none !important;
+
+}
 }

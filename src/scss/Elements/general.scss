@@ -37,7 +37,8 @@
 .is-icon-list {
     position: fixed;
     margin: 0 auto !important;
-    text-align: center;
+    text-align: center !important;
+    z-index: 99 !important;
     span {
         writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
