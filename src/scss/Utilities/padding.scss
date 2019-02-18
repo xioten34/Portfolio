@@ -426,11 +426,17 @@ $base: $utility-base;
   }
 }
 
-@media screen and (min-width: $tablet) {
+@media screen and (min-width: $tablet) and (max-width: $tablet-max){
   .has-padding-left-1-tablet {
     padding-left: $base !important;
   }
   .has-padding-left-2-tablet {
     padding-left: $base * 1.5 !important;
+  }
+  .has-padding-right-1-tablet {
+    padding-right: $base !important;
+  }
+  .has-padding-right-2-tablet {
+    padding-right: $base * 1.5 !important;
   }
 }

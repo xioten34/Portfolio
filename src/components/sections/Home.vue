@@ -23,6 +23,7 @@
                         <a href="https://www.instagram.com/j.dams" target="_blank"><fa-icon class="has-no-margin-top" :icon="['fab', 'instagram']" /></a>
                         <a href="https://www.linkedin.com/in/damien-jaillot" target="_blank"><fa-icon :icon="['fab', 'linkedin']" /></a>
                         <a href="https://github.com/xioten34" target="_blank"><fa-icon :icon="['fab', 'github']" /></a>
+                        <a href="mailto:damien.jaillot@gmail.com"><fa-icon :icon="['fa', 'envelope']" /></a>
                     </p>
                 </section>
             </div>

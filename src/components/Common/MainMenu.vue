@@ -20,12 +20,12 @@
                     <a href="#" class="navbar-item">{{ $t('menu[\'travel\']') }}</a>
                 </div>
                 <div class="navbar-end lang">
-                    <a class="navbar-item" @click="switchLang('fr')">Fr</a>
-                    <a class="navbar-item" @click="switchLang('en')">En</a>
+                    <a class="navbar-item" @click="switchLang('fr')">Français</a>
+                    <a class="navbar-item" @click="switchLang('en')">English</a>
                     <a class="navbar-item" @click="switchLang('ja')">日本語</a>
-                    <span class="navbar-item">
+                    <!-- <span class="navbar-item">
                         <a href="#" class="button has-no-border has-background-corail">{{ $t('menu[\'contact\']') }}</a>
-                    </span>
+                    </span> -->
                 </div>
             </div>
         </div>

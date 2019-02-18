@@ -6,6 +6,7 @@ import './scss/style.scss'
 // font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // translation Vue-i18n
@@ -15,7 +16,7 @@ import Locale from './vue-i18n-locales.js'
 
 Vue.use(VueI18n)
 
-library.add(faInstagram, faLinkedin, faGithub)
+library.add(faInstagram, faLinkedin, faGithub, faEnvelope)
 Vue.component('fa-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
